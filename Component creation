@@ -1,0 +1,17 @@
+//first export the component
+export default function Gallery(){
+return(
+<section>
+<h1>Mr Gregory is a Great Software Engeneer</h1>
+<ShowGregory/>
+<ShowGregory/>
+</section>
+)
+}
+function ShowGregory(){
+return(
+<img
+scr="ShowGregory.png"
+alt="Gregory photo"/>
+);
+}
